@@ -8,4 +8,5 @@
     <color name="gris">#818081</color>
     <color name="azul">#3F51B5</color>
     <color name="trans">#003F51B5</color>
+    <color name="grisopacity">#94AEAEAE</color>
 </resources>

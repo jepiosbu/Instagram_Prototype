@@ -22,6 +22,9 @@ class Pref(val context: Context)
     }
     fun getContrase(): String?
     {
+
+
+
         var getC=context.getSharedPreferences("code", Context.MODE_PRIVATE).getString("contraseña","")
         return getC
     }
