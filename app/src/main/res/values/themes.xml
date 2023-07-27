@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.PornHub" parent="Base.Theme.PornHub" />
+    
+    <style name="fontNavigation">
+        <item name="android:background">@color/morado</item>
+        <item name="itemTextColor">@color/white</item>
+        <item name="itemIconTint">@color/black</item>
+    </style>
 </resources>

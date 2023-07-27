@@ -16,6 +16,12 @@
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
+            android:name=".Navigate"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegistroActivity"
             android:exported="false" />
         <activity

@@ -11,6 +11,7 @@ import com.example.pornhub.databinding.ActivitySplahsBinding
 
 class SplahsActivity : AppCompatActivity() {
     lateinit var binding: ActivitySplahsBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivitySplahsBinding.inflate(layoutInflater)
