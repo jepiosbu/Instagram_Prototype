@@ -27,22 +27,18 @@ class HomeActivity : AppCompatActivity() {
             when(item.itemId){
                 R.id.onefragment->{
                     loadfragment(onefragment)
-                    return@setOnNavigationItemSelectedListener true
                 }
                 R.id.twofragment->{
                     loadfragment(twofragment)
-                    return@setOnNavigationItemSelectedListener true
                 }
                 R.id.threefragment->{
                     loadfragment(threefragment)
-                    return@setOnNavigationItemSelectedListener true
                 }
                 R.id.fourfragment->{
                     loadfragment(fourfragment)
-                    return@setOnNavigationItemSelectedListener true
                 }
             }
-            return@setOnNavigationItemSelectedListener false
+            return@setOnNavigationItemSelectedListener true
             }
     }
     fun loadfragment(fragment: Fragment){
